@@ -1,0 +1,27 @@
+{
+  "name": "mlbplayers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/lab -v -p -m 400000 -L -t 100"
+  },
+  "author": {
+    "name": "James Weston"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaw187/mlbplayers.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "hoek": "2.x.x",
+    "insync": "1.x.x",
+    "wreck": "5.x.x",
+    "xml2js": "0.x.x"
+  },
+  "devDependencies": {
+    "code": "1.x.x",
+    "lab": "5.x.x"
+  }
+}
